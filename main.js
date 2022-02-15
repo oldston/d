@@ -1,18 +1,58 @@
+// ================
+// the menu to toggle nav 
+// =============================
 let clickThat = document.getElementById('menu');
 let changeYourClass = document.getElementById('unorderLists');
 clickThat.addEventListener('click',()=>{
     changeYourClass.classList.toggle('active')
 })
+
+
+
+// ==========
+// change the position Text
+// ============================
 let locational = document.getElementById('location');
+let profile = document.getElementsByClassName('profile')[0];
+let works = document.getElementsByClassName('works')[0];
+let experiance = document.getElementsByClassName('experiance')[0];
+let talk = document.getElementsByClassName('talk')[0];
 function one(){
-    locational.innerHTML='Profile'
+    locational.innerHTML='Profile';
+    profile.style.setProperty('display', 'flex');
+    works.style.setProperty('display', 'none');
+    experiance.style.setProperty('display', 'none');
+    talk.style.setProperty('display', 'none');
+    
 }
 function two(){
-    locational.innerHTML='works'
+    locational.innerHTML='works';
+    profile.style.setProperty('display', 'none');
+    works.style.setProperty('display', 'flex');
+    experiance.style.setProperty('display', 'none');
+    talk.style.setProperty('display', 'none');
+
 }
 function three(){
-    locational.innerHTML='experiance'
-}
+    locational.innerHTML='experiance';
+    profile.style.setProperty('display', 'none');
+    works.style.setProperty('display', 'none');
+    experiance.style.setProperty('display', 'flex');
+    talk.style.setProperty('display', 'none');
+
+}   
 function four(){
-    locational.innerHTML='talk'
+    locational.innerHTML='talk';
+    profile.style.setProperty('display', 'none');
+    works.style.setProperty('display', 'none');
+    experiance.style.setProperty('display', 'none');
+    talk.style.setProperty('display', 'flex');
+
 }
+
+
+
+// ========================
+// hide/show with nav
+// ===============================
+

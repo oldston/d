@@ -1,0 +1,20 @@
+.profile{
+height: 100vh;
+    background-color: green;
+    display: none;
+}
+.works{
+    height: 100vh;
+    background-color: gray;
+    display: none;
+}
+.experiance{
+    height: 100vh;
+    background-color: pink;
+    display: none;
+}
+.talk{
+    height: 100vh;
+background-color: yellow;
+display: none;
+}

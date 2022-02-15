@@ -1,11 +1,9 @@
-body{
-    overflow: hidden;
-}
 header{
     display: flex;
     align-items: center;
     justify-content: center;
-   margin-top: 1rem;
+   /* margin-top: 1rem; */
+   height: 4rem;
 }
 nav{
     display: flex;
@@ -39,7 +37,7 @@ nav ul li a{
     padding: .7rem;
     font-size: 1.5rem;
     border-radius: 2rem;
-    transition: all ease .34s 0s;
+    transition: all ease .5s 0s;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     box-shadow: inset 0px 0px 0px 0px white;
@@ -92,7 +90,7 @@ nav #menu{
     flex-direction: column;
     position: absolute;
     right: -40px;
-    bottom: -170px;    
+    bottom: -190px;    
     background-color: aliceblue;
     align-items: end;
     width: auto;
