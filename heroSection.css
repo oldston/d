@@ -1,7 +1,12 @@
 .profile{
 height: 100vh;
-    background-color: green;
-    display: none;
+background: green;
+/* background-image: url(bc.gif);    */
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+display: flex;
 }
 .works{
     height: 100vh;

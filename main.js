@@ -8,7 +8,6 @@ clickThat.addEventListener('click',()=>{
 })
 
 
-
 // ==========
 // change the position Text
 // ============================
@@ -20,6 +19,8 @@ let talk = document.getElementsByClassName('talk')[0];
 function one(){
     locational.innerHTML='Profile';
     profile.style.setProperty('display', 'flex');
+    profile.style.setProperty('background-image', 'url(bc.gif)');
+
     works.style.setProperty('display', 'none');
     experiance.style.setProperty('display', 'none');
     talk.style.setProperty('display', 'none');
