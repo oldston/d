@@ -1,0 +1,17 @@
+#sp1.active{
+    display: flex;
+    transform: rotate(45deg);
+    /* position: absolute; */
+}
+#sp2.active{
+    display: flex;
+
+    /* transform: rotate(); */
+    position: relative;
+}
+#sp3.active{
+    display: flex;
+    transform: rotate(-45deg);
+    position: absolute;
+    
+}
