@@ -9,19 +9,23 @@
     width: 90%;
     border-radius: 1rem;
 }
-.home h1{
+.home .intro{
+    width: 90%;
+}
+.home .intro h1{
+    width: 90%;
     margin-top: 1rem;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(212, 212, 212);
+    color: rgb(65, 65, 65);
     font-weight: 100;
     font-size: 1.5rem;
 }
-.home p{
+.home .intro p{
     width: 80%;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(212, 212, 212);
+    color: rgb(59, 59, 59);
     word-break: break-all;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 .profile{
 height: 100vh;

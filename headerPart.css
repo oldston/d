@@ -33,7 +33,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: rgb(121, 121, 121);
+    color: rgb(255, 255, 255);
     padding: .7rem;
     font-size: 1.5rem;
     border-radius: 2rem;
@@ -43,7 +43,7 @@ nav ul li a{
     box-shadow: inset 0px 0px 0px 0px white;
 }
 nav ul li a:hover{
-    box-shadow: inset -100px 0px 1px rgba(122, 30, 207);
+    box-shadow: inset -200px 0px 1px rgba(122, 30, 207);
     color: white;
    
 }
@@ -91,10 +91,12 @@ nav #menu{
     position: absolute;
     right: -40px;
     bottom: -230px;    
-    background-color: aliceblue;
+    background: rgba(255, 255, 255, 0.205);
     align-items: end;
     width: auto;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-shadow: 1px 1px 10px rgb(26, 26, 26);
+    backdrop-filter: blur(50px);
 }
 }

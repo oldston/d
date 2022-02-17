@@ -18,7 +18,7 @@ let works = document.getElementsByClassName('works')[0];
 let experiance = document.getElementsByClassName('experiance')[0];
 let talk = document.getElementsByClassName('talk')[0];
 function zero(){
-    locational.innerHTML='HOME';
+    locational.innerHTML='প্রচ্ছদ';
     profile.style.setProperty('display', 'none');
     works.style.setProperty('display', 'none');
     experiance.style.setProperty('display', 'none');
@@ -26,7 +26,7 @@ function zero(){
     home.style.setProperty('display', 'flex');
 }
 function one(){
-    locational.innerHTML='Profile';
+    locational.innerHTML='প্রশাসন';
     profile.style.setProperty('display', 'flex');
    // profile.style.setProperty('background-image', 'url(bc.gif)');
 
@@ -37,7 +37,7 @@ function one(){
     
 }
 function two(){
-    locational.innerHTML='works';
+    locational.innerHTML='শিক্ষার্থিদের তথ্য';
     profile.style.setProperty('display', 'none');
     works.style.setProperty('display', 'flex');
     experiance.style.setProperty('display', 'none');
@@ -46,7 +46,7 @@ function two(){
 
 }
 function three(){
-    locational.innerHTML='experiance';
+    locational.innerHTML='যোগাযোগ';
     profile.style.setProperty('display', 'none');
     works.style.setProperty('display', 'none');
     experiance.style.setProperty('display', 'flex');
@@ -55,7 +55,7 @@ function three(){
 
 }   
 function four(){
-    locational.innerHTML='talk';
+    locational.innerHTML='বিজ্ঞপ্তি';
     profile.style.setProperty('display', 'none');
     works.style.setProperty('display', 'none');
     experiance.style.setProperty('display', 'none');
